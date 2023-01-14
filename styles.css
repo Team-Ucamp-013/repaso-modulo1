@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(224, 223, 223);
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown{
+    padding-top: 20px;
+}
+
+.jumbotron{
+    background-color:#9cb4b9 ;
+    text-align: center;
+}
+
+.cards{
+    background-color:#b0c1b3 ;
+}
+
+.phrase{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    border: 1px solid transparent;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box {
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color:  rgb(187, 192, 201);
+    color: rgb(254, 252, 248);
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    padding: 20px;
+}
